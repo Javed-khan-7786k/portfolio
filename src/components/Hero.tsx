@@ -151,19 +151,19 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="bg-white/5 p-8 border border-thin rounded-sm"
               >
-                <div className="text-[10px] uppercase tracking-[0.3em] mb-4 text-gray-500">Contact Information</div>
-                <div className="flex flex-col gap-3 font-light">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-white">Email</span>
-                    <span className="text-gray-300">{USER.email}</span>
+                <div className="text-[10px] uppercase tracking-[0.3em] mb-6 text-gray-500">Contact Information</div>
+                <div className="grid grid-cols-1 gap-5">
+                  <div className="flex flex-col gap-1">
+                    <span className="text-[10px] uppercase tracking-widest text-gray-500">Email</span>
+                    <a href={`mailto:${USER.email}`} className="font-light text-gray-300 hover:text-accent transition-colors break-all text-sm">{USER.email}</a>
                   </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-white">Phone</span>
-                    <span className="text-gray-300">{USER.phone}</span>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-[10px] uppercase tracking-widest text-gray-500">Phone</span>
+                    <a href={`tel:${USER.phone}`} className="font-light text-gray-300 hover:text-accent transition-colors text-sm">{USER.phone}</a>
                   </div>
-                  <div className="flex justify-between text-sm mt-2 pt-2 border-t border-thin">
-                    <span className="text-white">Status</span>
-                    <span className="text-accent flex items-center gap-2">
+                  <div className="flex flex-col gap-1 pt-3 border-t border-thin">
+                    <span className="text-[10px] uppercase tracking-widest text-gray-500 mb-1">Status</span>
+                    <span className="text-accent font-light flex items-center gap-2 text-sm">
                       <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></span> Available for Hire
                     </span>
                   </div>
