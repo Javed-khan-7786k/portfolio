@@ -123,7 +123,7 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-thin pt-10 w-full max-w-4xl">
+          <div className="flex flex-col md:flex-row md:justify-between gap-12 border-t border-thin pt-10 w-full max-w-4xl">
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-4">
                 <motion.span 
@@ -144,12 +144,12 @@ export default function Hero() {
               </motion.p>
             </div>
             
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full md:w-80 lg:w-96">
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
-                className="bg-white/5 p-8 border border-thin rounded-sm"
+                className="bg-white/5 p-8 border border-thin rounded-sm "
               >
                 <div className="text-[10px] uppercase tracking-[0.3em] mb-6 text-gray-500">Contact Information</div>
                 <div className="grid grid-cols-1 gap-5">
