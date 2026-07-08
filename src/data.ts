@@ -41,8 +41,8 @@ export const USER = {
         "Implemented functional forms with client-side validation",
         "Designed a mobile-first, cross-browser compatible layout"
       ],
-      github: "https://github.com/Javed-khan-7786k/javed-alam-portfolio",
-      live: "https://github.com/Javed-khan-7786k/javed-alam-portfolio"
+      github: "https://github.com/Javed-khan-7786k/portfolio",
+      live: "https://portfolio-theta-gules-6gqhcqbpq3.vercel.app/"
     },
     {
       title: "UI Design Practice Projects",
