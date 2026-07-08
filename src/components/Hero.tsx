@@ -60,7 +60,7 @@ export default function Hero() {
           <div className="text-[11px] tracking-widest uppercase opacity-80 text-white">Based in {USER.location.split(',')[0]}</div>
         </header>
 
-        <div className="relative mt-20 md:mt-0">
+        <div className="relative mt-20 md:mt-0 w-full">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-12 mb-12">
             <div className="relative">
               <div className="absolute -left-4 md:-left-10 top-0 text-[100px] md:text-[180px] font-display opacity-[0.03] select-none text-white pointer-events-none">
@@ -123,7 +123,7 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          <div className="flex flex-col md:flex-row md:justify-between gap-12 border-t border-thin pt-10 w-full max-w-4xl">
+          <div className="flex flex-col md:flex-row md:justify-between gap-12 border-t border-thin pt-10 w-full">
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-4">
                 <motion.span 
@@ -178,7 +178,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.5 }}
           transition={{ delay: 1.2 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[9px] tracking-[0.2em] uppercase text-gray-500 hidden md:flex"
+          className="relative bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[9px] tracking-[0.2em] uppercase text-gray-500 hidden md:flex"
         >
           <span>Scroll Down</span>
           <motion.div 
