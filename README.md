@@ -52,23 +52,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed (version 18+ recomme
    npm install
    ```
 
-3. **Set Up Environment Variables**
-   Create a `.env.local` file in the root directory (you can copy `.env.example` as a template):
-   ```bash
-   cp .env.example .env.local
-   ```
-   Provide your Gemini API Key in the `.env.local` file:
-   ```env
-   VITE_GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-
-4. **Start Development Server**
+3. **Start Development Server**
    ```bash
    npm run dev
    ```
    Open your browser and navigate to `http://localhost:3000`.
 
-5. **Build for Production**
+4. **Build for Production**
    ```bash
    npm run build
    ```
