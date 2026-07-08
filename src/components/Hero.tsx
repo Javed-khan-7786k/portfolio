@@ -144,7 +144,7 @@ export default function Hero() {
               </motion.p>
             </div>
             
-            <div className="flex flex-col justify-end">
+            <div className="flex flex-col">
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
